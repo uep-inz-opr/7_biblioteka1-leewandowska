@@ -56,4 +56,4 @@ for i in Lista_aut_tytul:
 sorted_x = sorted(occurrences.items(), key=lambda kv: kv[1])
 
 for key,value in sorted_x:
-    print("('"+key[0]+"','"+key[1]+"',"+str(value)+")")
+    print("('"+key[0]+"', '"+key[1]+"', "+str(value)+")")
