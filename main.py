@@ -53,7 +53,7 @@ for i in Lista_aut_tytul:
     else:
         occurrences[tuple(i)] = 1
 
-sorted_x = sorted(occurrences.items(), key=lambda kv: kv[1])
+sorted_x = sorted(occurrences.items(), key=lambda kv: kv[0])
 
 for key,value in sorted_x:
     print("('"+key[0]+"', '"+key[1]+"', "+str(value)+")")
